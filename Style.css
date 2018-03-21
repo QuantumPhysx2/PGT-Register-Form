@@ -1,0 +1,178 @@
+body {
+  text-align: center;
+  background-color: #13232f;
+  font-family: "Titillium Web", sans-serif;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 60px;
+}
+
+form {
+  font-size: 30px;
+}
+
+.toprow label,
+.middlerow1 label,
+.middlerow2 label,
+.bottomrow label {
+  color: #ffffff;
+  font-size: 30px;
+  position: absolute;
+  pointer-events: none;
+  opacity: 0.5;
+  transition: 0.35s ease all;
+}
+
+/*Margin = Top, Right, Bottom, Left*/
+#tr_lbl1 {
+  margin: 20px -421px;
+}
+
+#tr_lbl2 {
+  margin: 20px -410px
+}
+
+#mr1_lbl1 {
+  margin: 20px -592px;
+}
+
+#mr1_lbl2 {
+  margin: 20px -243px;
+}
+
+#mr2_lbl1 {
+  margin: 20px -463px;
+}
+
+#mr2_lbl2 {
+  margin: 20px -372px;
+}
+
+#mr2_lbl3 {
+  margin: 20px -325px;
+}
+
+#br_lbl1 {
+  margin: 20px -410px;
+}
+
+#br_lbl2 {
+  margin: 20px -420px;
+}
+
+#br_lbl3 {
+  margin: 20px -410px;
+}
+
+/*Pseudo-Selectors*/
+form input:focus + .placeholder,
+form input:valid + .placeholder {
+  font-size: 20px;
+  transform: translateY(-180%);
+  opacity: 1;
+}
+
+form input:focus,
+form input:hover,
+form select:hover {
+  outline: 0px;                 /*Removing this will cause a tiny visual error*/
+  box-shadow: 0 0 25px #719ECE;
+  transition: 0.35s;
+}
+
+button:hover,
+button[type=submit]:hover {
+  outline: 0px;
+  box-shadow: 0 0 25px #719ECE;
+  transition: 0.35s;
+}
+
+.toprow input {
+  color: #ffffff;
+  font-size: 23px;
+  padding: 10px;
+  margin: 10px 25px 30px 25px;
+  width: 20%;
+  border: 2px solid #ffffff;
+  background: transparent;
+  border-radius: 5px;
+}
+
+.middlerow1 input {
+  color: #ffffff;
+  font-size: 23px;
+  padding: 10px;
+  margin: 10px 25px 30px 25px;
+  border: 2px solid #ffffff;
+  background: transparent;
+  border-radius: 5px;
+}
+
+#mr1_ip1 {
+  width: 29%;
+}
+
+#mr1_ip2 {
+  width: 11%;
+}
+
+.middlerow2 input{
+  color: #ffffff;
+  font-size: 23px;
+  padding: 10px;
+  margin: 10px 25px 30px 25px;
+  border: 2px solid #ffffff;
+  background: transparent;
+  border-radius: 5px;
+}
+
+#mr2_ip1 {
+  width: 22.1%;
+}
+
+#mr2_ip2{
+  width: 17.8%;
+}
+
+select {
+  font-size: 25px;
+  margin: 10px 25px 10px 25px;
+  width: 8%;
+  text-align-last: center;
+  border-radius: 5px;
+}
+
+.bottomrow input{
+  color: #ffffff;
+  font-size: 23px;
+  padding: 10px;
+  margin: 10px 25px 30px 25px;
+  width: 20%;
+  border: 2px solid #ffffff;
+  background: transparent;
+  border-radius: 5px;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.genderselectors {
+  color: #ffffff;
+  margin: 10px 25px 10px 25px;
+}
+
+button {
+  color: #ffffff;
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px 25px 10px 25px;
+  background-color: #179b77;
+  width: 17%;
+  border: 0;
+  box-shadow: none;
+  border-radius: 5px;
+}
